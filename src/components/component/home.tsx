@@ -359,7 +359,7 @@ export function Home1() {
           <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
             <CardHeader>
               <Image
-                src="/hiring-process.png"
+                src="/public/hiring-process.png"
                 width="100"
                 height="100"
                 alt="Technology Logo"
