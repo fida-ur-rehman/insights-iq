@@ -10,7 +10,7 @@ const WhatsAppFloatingIcon = () => {
         rel="noopener noreferrer"
         className="fixed whatsapp bottom-8 right-8 w-16 h-16 rounded-full bg-blue text-primary-foreground hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 transition-all duration-300"
         >
-        <Image src="/whatsapp.png" alt="WhatsApp" width={70} height={70} />
+        <Image src="/insights-iq/whatsapp.png" alt="WhatsApp" width={70} height={70} />
       </Link>
     </div>
   );

@@ -359,7 +359,7 @@ export function Home1() {
           <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
             <CardHeader>
               <Image
-                src="/hiring-process.png"
+                src="/insights-iq/hiring-process.png"
                 width="100"
                 height="100"
                 alt="Technology Logo"
@@ -376,7 +376,7 @@ export function Home1() {
           <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
             <CardHeader>
               <Image
-                src="/bank.png"
+                src="/insights-iq/bank.png"
                 width="100"
                 height="100"
                 alt="Technology Logo"
@@ -393,7 +393,7 @@ export function Home1() {
           <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
             <CardHeader>
               <Image
-                src="/internship.png"
+                src="/insights-iq/internship.png"
                 width="100"
                 height="100"
                 alt="Internship Logo"
@@ -410,7 +410,7 @@ export function Home1() {
           <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
             <CardHeader>
               <Image
-                src="/headhunting.png"
+                src="/insights-iq/headhunting.png"
                 width="100"
                 height="100"
                 alt="Placement Logo"
@@ -443,7 +443,7 @@ export function Home1() {
               <Card>
               <CardHeader>
     <Image
-      src="/Microsoft-Power-BI-Logo.png"
+      src="/insights-iq/Microsoft-Power-BI-Logo.png"
       width="140"
       height="140"
       alt="Technology Logo"
@@ -461,7 +461,7 @@ export function Home1() {
 <Card>
   <CardHeader>
     <Image
-      src="/PythonLogo.webp"
+      src="/insights-iq/PythonLogo.webp"
       width="140"
       height="140"
       alt="Technology Logo"
@@ -479,7 +479,7 @@ export function Home1() {
 <Card>
   <CardHeader>
     <Image
-      src="/excel-logo-0.png"
+      src="/insights-iq/excel-logo-0.png"
       width="140"
       height="140"
       alt="Technology Logo"
@@ -497,7 +497,7 @@ export function Home1() {
 <Card>
   <CardHeader>
     <Image
-      src="/Statistics.png"
+      src="/insights-iq/Statistics.png"
       width="140"
       height="140"
       alt="Technology Logo"
@@ -551,7 +551,7 @@ export function Home1() {
 <Card>
   <CardHeader>
     <Image
-      src="/sql.png"
+      src="/insights-iq/sql.png"
       width="140"
       height="140"
       alt="Technology Logo"
@@ -569,7 +569,7 @@ export function Home1() {
 <Card>
   <CardHeader>
     <Image
-      src="/СhatGPT-Logo.png"
+      src="/insights-iq/СhatGPT-Logo.png"
       width="140"
       height="140"
       alt="Technology Logo"
@@ -679,7 +679,7 @@ export function Home1() {
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
                 <CardHeader>
-                  <Image src="/3.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
+                  <Image src="/insights-iq/3.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-lg font-bold">Rushikesh Patil</h3>
@@ -700,7 +700,7 @@ export function Home1() {
               </Card>
               <Card>
                 <CardHeader>
-                  <Image src="/2.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
+                  <Image src="/insights-iq/2.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-lg font-bold">Kuldeep Kumar</h3>
@@ -721,7 +721,7 @@ export function Home1() {
               </Card>
               <Card>
                 <CardHeader>
-                  <Image src="/1.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
+                  <Image src="/insights-iq/1.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-lg font-bold">Md. Aquib</h3>
@@ -740,7 +740,7 @@ export function Home1() {
               </Card>
               <Card>
                 <CardHeader>
-                  <Image src="/5.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
+                  <Image src="/insights-iq/5.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-lg font-bold">Kritika Dwivedi</h3>
@@ -758,7 +758,7 @@ export function Home1() {
               </Card>
               <Card>
                 <CardHeader>
-                  <Image src="/4.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
+                  <Image src="/insights-iq/4.jpg" width="200" height="200" alt="Instructor" className="rounded-full" />
                 </CardHeader>
                 <CardContent>
                   <h3 className="text-lg font-bold">Jayant Popli</h3>
@@ -790,7 +790,7 @@ export function Home1() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="/logo.png"
+                    src="/insights-iq/logo.png"
                     width="220"
                     height="220"
                     alt="Partner Logo"
@@ -801,7 +801,7 @@ export function Home1() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="/vision.png"
+                    src="/insights-iq/vision.png"
                     width="220"
                     height="220"
                     alt="Partner Logo"
@@ -812,7 +812,7 @@ export function Home1() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="/logo1.png"
+                    src="/insights-iq/logo1.png"
                     width="220"
                     height="220"
                     alt="Partner Logo"
@@ -823,7 +823,7 @@ export function Home1() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="/tradEdge.png"
+                    src="/insights-iq/tradEdge.png"
                     width="220"
                     height="220"
                     alt="Partner Logo"
@@ -834,7 +834,7 @@ export function Home1() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="/FM. Technologies.png"
+                    src="/insights-iq/FM. Technologies.png"
                     width="220"
                     height="220"
                     alt="Partner Logo"
