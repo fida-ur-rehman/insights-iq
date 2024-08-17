@@ -32,7 +32,7 @@ export default function Navbar() {
           </Link>
           <nav className="hidden md:flex items-center gap-8 px-14">
           <Link href="#" className="text-lg font-medium hover:underline" onClick={() => handleMenuClick('Why?')} prefetch={false}>
-              Why?
+              Why us
             </Link>
             <Link href="#" className="text-lg font-medium hover:underline" onClick={() => handleMenuClick('Subjects')} prefetch={false}>
               Subjects

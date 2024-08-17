@@ -256,7 +256,7 @@ export function Home1() {
             {/* <WhatsAppFloatingIcon /> */}
 
       <main className="flex-1" style={{ marginTop: '80px' }}>
-        <section className="w-full py-12 md:py-24 lg:py-20 bg-primary text-primary-foreground">
+        <section className="section-with-bg-image w-full py-12 md:py-24 lg:py-20 text-primary-foreground">
           <div className="container px-4 md:px-6 grid gap-6 lg:grid-cols-2 lg:gap-12 items-center justify-center md:items-start">
             <div className="space-y-4 text-center md:text-left">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
@@ -345,83 +345,101 @@ export function Home1() {
             </div>
           </div>
         </section>
-        <section  className="w-full">
-        {/* <WhyChooseUs /> */}
-        <section id="Why?" className="w-full py-12 md:py-24 lg:py-24 bg-muted" >
-          <div className="container px-4 md:px-6 space-y-12">
-            <div className="text-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose Our Course?</h2>
-              <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
-              Unlock your potential with expert instruction, a comprehensive curriculum, and dedicated support for your career growth.
+        {/* <section className="w-full"> */}
+        <section id="Why?" className="w-full py-12 md:py-24 lg:py-24 bg-muted lg:pl-36 ">
+    <div className="space-y-12 y">
+      <div className="text-center space-y-4">
+        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Why Choose Our Course?</h2>
+        <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
+          Unlock your potential with expert instruction, a comprehensive curriculum, and dedicated support for your career growth.
+        </p>
+      </div>
+      <div className="relative overflow-hidden bg-white">
+        <div className="flex space-x-6 overflow-x-auto pb-4 no-scrollbar snap-x snap-mandatory pl-4">
+          <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
+            <CardHeader>
+              <Image
+                src="/hiring-process.png"
+                width="100"
+                height="100"
+                alt="Technology Logo"
+                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
+              />
+            </CardHeader>
+            <CardContent>
+              <h3 className="text-lg font-bold">Mock Interviews</h3>
+              <p className="text-muted-foreground">
+                Get ready for real-world challenges with mock interviews by professionals, boosting your confidence and skills.
               </p>
-            </div>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center">
-              <Card>
-                <CardHeader>
-                <Image
-      src="/hiring-process.png"
-      width="100"
-      height="100"
-      alt="Technology Logo"
-      className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-    />
-                </CardHeader>
-                <CardContent>
-                  <h3 className="text-lg font-bold">Mock Interviews</h3>
-                  <p className="text-muted-foreground">
-                  Get ready for real-world challenges with mock interviews by professionals, boosting your confidence and skills.                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                <Image
-      src="/bank.png"
-      width="100"
-      height="100"
-      alt="Technology Logo"
-      className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-    />
-                </CardHeader>
-                <CardContent>
-                  <h3 className="text-lg font-bold">Learn from the Best</h3>
-                  <p className="text-muted-foreground">
-                  Learn from IIT Bombay graduates with top-tier expertise guiding you throughout your journey.
+            </CardContent>
+          </Card>
+          <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
+            <CardHeader>
+              <Image
+                src="/bank.png"
+                width="100"
+                height="100"
+                alt="Technology Logo"
+                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
+              />
+            </CardHeader>
+            <CardContent>
+              <h3 className="text-lg font-bold">Learn from the Best</h3>
+              <p className="text-muted-foreground">
+                Learn from IIT Bombay graduates with top-tier expertise guiding you throughout your journey.
+              </p>
+            </CardContent>
+          </Card>
+          <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
+            <CardHeader>
+              <Image
+                src="/internship.png"
+                width="100"
+                height="100"
+                alt="Internship Logo"
+                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
+              />
+            </CardHeader>
+            <CardContent>
+              <h3 className="text-lg font-bold">Internship Opportunities</h3>
+              <p className="text-muted-foreground">
+                Gain hands-on experience with guaranteed internships at top companies, preparing you for a successful career.
+              </p>
+            </CardContent>
+          </Card>
+          <Card className="flex-shrink-0 w-[80%] sm:w-[calc(50%-1.5rem)] lg:w-[calc(33%-1.5rem)] snap-start">
+            <CardHeader>
+              <Image
+                src="/headhunting.png"
+                width="100"
+                height="100"
+                alt="Placement Logo"
+                className="aspect-square overflow-hidden rounded-lg object-contain object-center"
+              />
+            </CardHeader>
+            <CardContent>
+              <h3 className="text-lg font-bold">Placement Assurance</h3>
+              <p className="text-muted-foreground">
+                Secure your future with our placement assistance, ensuring you land a job at a leading company after graduation.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </div>
+  </section>
+{/* </section> */}
 
-</p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                <Image
-      src="/certificate.png"
-      width="100"
-      height="100"
-      alt="Technology Logo"
-      className="aspect-square overflow-hidden rounded-lg object-contain object-center"
-    />
-                </CardHeader>
-                <CardContent>
-                  <h3 className="text-lg font-bold">Industry-Recognized Certification</h3>
-                  <p className="text-muted-foreground">
-                  Receive a recognized certificate upon course completion, boosting your resume and job prospects.
-
-</p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </section>
-        </section>
 
                 <section id="Subjects" className="w-full py-12 md:py-24 lg:py-24">
           <div className="container px-4 md:px-6 space-y-12">
             <div className="text-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Academic Offerings</h2>
               <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
-                Learn the most in-demand data analytics tools and technologies.
+              The capstone course includes the following subjects
               </p>
             </div>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               <Card>
               <CardHeader>
     <Image
@@ -493,7 +511,7 @@ export function Home1() {
     </p>
   </CardContent>
 </Card>
-
+{/* 
 <Card>
   <CardHeader>
     <Image
@@ -528,7 +546,7 @@ export function Home1() {
       Explore Artificial Intelligence, the simulation of human intelligence in machines.
     </p>
   </CardContent>
-</Card>
+</Card> */}
 
 <Card>
   <CardHeader>

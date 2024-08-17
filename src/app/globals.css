@@ -68,6 +68,26 @@
   }
 }
 
+.section-with-bg-image {
+  background-image: url("/AdobeStock_322230356.jpeg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter: brightness(0.5); */
+  background-color: #919191;
+  background-blend-mode: multiply
+
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
 /* global.css or appropriate CSS file */
 .bg-primary {
   background-color: #336799; /* Adjust as needed */
@@ -107,6 +127,7 @@
   padding: 0 1rem;
   margin: 0 auto;
 }
+
 
 .hidden {
   display: none;
