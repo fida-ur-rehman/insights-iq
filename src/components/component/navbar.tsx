@@ -27,7 +27,7 @@ export default function Navbar() {
       >
         <div className="container flex items-center justify-between mx-auto">
           <Link href="/" className="flex items-center gap-4">
-            <Image src="/Frame 6.png" width={64} height={64} alt="Logo" />
+            <Image src="/insights-iq/Frame 6.png" width={64} height={64} alt="Logo" />
             <span className="text-2xl font-bold text-primary">Insights IQ</span>
           </Link>
           <nav className="hidden md:flex items-center gap-8 px-14">
