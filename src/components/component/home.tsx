@@ -801,7 +801,7 @@ export function Home1() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="/vision.png"
+                    src="/Vision.png"
                     width="220"
                     height="220"
                     alt="Partner Logo"
